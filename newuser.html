@@ -1,0 +1,86 @@
+<!--new user registration-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Job Finder</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="css/bootstrap.min.css">
+<link href="css/font-awesome.min.css" rel="stylesheet" type="text/css" />
+<link href="css/style.css" rel="stylesheet" type="text/css" />
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<script src="js/jquery.js" type="text/javascript"></script> 
+<script src="js/bootstrap.min.js"></script> 
+
+</head>
+<body>
+ <div class="header head-bg">
+  <div class="container">
+    <div class="col-md-6  header-left">
+      <div class="navbar-header"><a class="navbar-brand" href="index.html"><span>JF</span>Job Finder</a></div>
+    </div>
+    </div>
+   </div>
+   
+<!--new user section starts here-->
+   
+<div class="login-fields">	       
+  <div class="container">
+	<div class="row">
+		<div class="col-sm-12 col-lg-12 col-md-12">
+		    <div class="col-md-3"></div>
+			<div class="col-md-6">
+			<h1>Register</h1>
+			  <form action="">
+			  <div class="form-group">
+				<label ><b class="mandatory-fields">*</b>First Name</label></br>
+				<input type="text" class="form-control" placeholder="firstName" required title="PLEASE ENTER YOUR FIRST NAME"></br>
+				<label ><b class="mandatory-fields">*</b>Second Name</label></br>
+				<input type="text" class="form-control" placeholder="Second Name" required title="PLEASE ENTER YOUR SECOND NAME"></br>
+				<label ><b class="mandatory-fields">*</b>User Name</label></br>
+				<input type="text" class="form-control" placeholder="User Name" required title="PLEASE ENTER YOUR USER_NAME"></br>
+				<label><b class="mandatory-fields">*</b>Password</label></br>
+				<input type="password" class="form-control" placeholder="*****" required title="PLEASE ENTER YOUR PASSWORD"></br>
+				<label><b class="mandatory-fields">*</b>Confirm Password</label></br>
+				<input type="password" class="form-control" placeholder="*****" required title="YOUR PASSWORD AND CONFIRM PASSWORD SHOULD BE SAME"></br>
+				<label for="email"><b class="mandatory-fields">*</b>Email</label></br>
+				<input type="email" class="form-control"  placeholder="abc@example.com" required title="PLEASE ENTER YOUR EMAIL ID"></br>
+				<label><b class="mandatory-fields">*</b>Roles Interested</label></br>
+				<select>
+					<option> Graduate </option>
+					<option> Intern </option>
+					<option> Summer Internship </option>
+				</select></br>
+				<div class="lang-intrested">
+					<label><b class="mandatory-fields">*</b>Languages intrested</label></br>
+					<div class="col-sm-2">
+						<label><input type="checkbox">SQL</label>
+					</div>
+					<div class="col-sm-3">
+						<label><input type="checkbox">Bootstrap</label>
+					</div>
+					<div class="col-sm-3">
+						<label><input type="checkbox">node.js</label>
+					</div>
+					<div class="col-sm-4">
+						<label><input type="checkbox">HTML and CSS</label>
+					</div>
+				</div>
+			  </div>
+		<!--Upload resume section starts here-->
+			   <label><b class="mandatory-fields">*</b>Upload Resume</label></br>
+			   <input type="file" multiple="multiple" />
+			    
+		<!--Upload resume section ends here-->
+			   <input type="submit" class="btn btn-block" name="">
+			  </form>
+			</div>
+			<div class="col-md-3"></div>
+		</div>
+    </div>
+  </div>
+</div>
+
+<!--new user section Ends here-->
+</body>
+</html>
